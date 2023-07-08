@@ -18,9 +18,9 @@
 nav{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
-    text-decoration: none;
+    margin: 0 200px;
     align-items: center;
+    padding: 20px;
 }
 .nav-title{
     font-size: 45px;
@@ -40,4 +40,16 @@ nav li{
 
 .nav-anchor{
     text-decoration: none;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+    width: 500px;
 }
