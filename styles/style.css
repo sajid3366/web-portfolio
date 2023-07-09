@@ -193,10 +193,26 @@ footer{
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 230px ;
+    margin-top: 100px;
+    gap: 10px;
+}
+.footer-column{
+    width: 50%;
 }
 
 .social-links img{
-    width: 70px;
+    width: 30px;
+    margin: 10px 0;
+}
+
+.contact-form input, textarea{
+    display: block;
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+.contact-form input[type="text"],input[type="email"],
+textarea{
+    
 }
 
 
