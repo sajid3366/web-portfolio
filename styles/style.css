@@ -22,6 +22,7 @@ nav{
     margin: 0 200px;
     align-items: center;
     padding: 20px;
+    
 }
 .nav-title{
     font-size: 45px;
@@ -41,6 +42,8 @@ nav li{
 
 .nav-anchor{
     text-decoration: none;
+    color: black;
+    font-weight: 700px;
 }
 /* header related styles */
 .header{
@@ -155,12 +158,46 @@ main section{
 .resume-container{
     display: flex;
     justify-content: space-around;
+    gap: 100px;
 }
 
 .resume-column-title{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin: 20px 0 30px;
 
 }
+.resume-item-title{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.resume-item-institute{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.resume-item-description{
+    line-height: 25px;
+    margin: 20px 0;
+}
+.resume-container hr{
+    margin-bottom: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+}
+/* this is footer section  */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px ;
+}
+
+.social-links img{
+    width: 70px;
+}
+
+
 
